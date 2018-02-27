@@ -1,0 +1,17 @@
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#data{
+}
+#alertButton{
+  background-color: crimson;
+  padding:30px;
+}
+#subjectButton{
+  background-color: green;
+  color:white;
+  padding:30px;
+}

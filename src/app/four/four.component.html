@@ -1,0 +1,11 @@
+<p>
+  four works!
+</p>
+<button id="button" (click)="getTeams()">Get Teams</button>
+<div class="flex-container" *ngFor="let team of teams">
+  <div class="flex-item">
+  <h1 id="team">{{team.name}}</h1>
+  <h2 id="status">{{team.status}}</h2>
+  <img id="image" src="{{team.imageUrl}}">
+  </div>
+</div>

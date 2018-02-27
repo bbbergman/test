@@ -1,0 +1,27 @@
+.flex-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.flex-item {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding:20px;
+  cursor: pointer;
+}
+#button {
+  display: block;
+}
+#team{
+  color:green;
+  font-family: Arial;
+}
+#status{
+  font-family: Arial;
+}
+#image{
+  height: 100px;
+  width: 100px;
+}
